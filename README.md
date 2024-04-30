@@ -1,6 +1,6 @@
 # To Do Application (React)
 
-This project has  bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first React App. It's a basic to do app but I will be working on it while you are reading this.
 
 ## Available Scripts
 
@@ -10,3 +10,8 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+`npm i --save @fortawesome/fontawesome-svg-core`
+`npm i --save @fortawesome/free-solid-svg-icons`
+`npm i --save @fortawesome/free-regular-svg-icons`
+`npm i --save @fortawesome/react-fontawesome@latest`

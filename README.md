@@ -1,6 +1,7 @@
 # To Do Application (React)
 
-This is my first React App. It's a basic to do app but I will be working on it while you are reading this.
+This is my first React App. It's a basic to do app but I will be working on it while you are reading this.\
+Before using, type `npm install` or `npm update` in the terminal.
 
 ## Available Scripts
 

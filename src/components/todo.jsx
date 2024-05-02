@@ -31,16 +31,14 @@ export default function Todo() {
         localStorage.removeItem("localTasks")
     }
 
-
-
   return (
-    <div className='container row'>
-        <h1 className="mt-3 text-white">To-Do App</h1>
+    <div className='container row Todo'>
+        <h1 className="mt-3 text-white" style={{fontWeight:'bold'}}>To-Do App</h1>
         <div className="col-8">
             <input name="task" type="text" value={task} placeholder='Write your task...' className='form-control' onChange={(e) => setTask(e.target.value)}/>
         </div>
         <div className="col-4">
-            <button className="btn btn-primary form-control material-icons" onClick={addTask}>add</button>
+            <button className="btn btn-warning form-control material-icons addButton" onClick={addTask}>add</button>
         </div>
         <div className="badge">
             You have
@@ -66,7 +64,7 @@ export default function Todo() {
         ))}
         {!tasks.length ? null:(
             <div>
-                <button className="btn btn-secondary mt-4 mb-4" onClick={() => handleClear()}>
+                <button className="btn btn-danger mt-4 mb-4" onClick={() => handleClear()}>
                     Clear
                 </button>
             </div>

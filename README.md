@@ -1,3 +1,12 @@
+# How to run?
+Clone the repository. Use 
+### `npm update` 
+to get required node modules. Use 
+### `npm run dev` 
+to run the application.\ 
+Enjoy.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -34,8 +34,8 @@ export default function Todo() {
   return (
     <div className='container row Todo'>
         <h1 className="mt-3 text-white" style={{fontWeight:'bold'}}>To-Do App</h1>
-        <div className="col-8">
-            <input name="task" type="text" value={task} placeholder='Write your task...' className='form-control' onChange={(e) => setTask(e.target.value)}/>
+        <div className="col-8 ">
+            <input name="task" type="text" value={task} placeholder='Write your task...' className='form-control bg-warning bg-gradient' onChange={(e) => setTask(e.target.value)}/>
         </div>
         <div className="col-4">
             <button className="btn btn-warning form-control material-icons addButton" onClick={addTask}>add</button>
@@ -52,7 +52,7 @@ export default function Todo() {
         {tasks.map((task)=>(
             <React.Fragment key = {task.id}>
                 <div className="col-11">
-                    <span className="form-control bg-white btn mt-2" style={{textAlign: "left", fontWeight:"bold"}}>
+                    <span className="form-control bg-warning bg-gradient btn mt-2" style={{textAlign: "left", fontWeight:"bold", backgroundColor:"#ba7c00", cursor:"default"}}>
                         {task.title}
                     </span>
                 </div>
